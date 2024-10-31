@@ -1,0 +1,4 @@
+service : {
+  getHighScore: () -> (nat) query;
+  updateScore: (nat) -> ();
+}
